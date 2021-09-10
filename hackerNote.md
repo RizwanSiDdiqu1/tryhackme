@@ -22,3 +22,38 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ``` 22,80,8080 ```
 - What programming language is the backend written in?
 ``` Go ```
+## Task 2 - Exploit
+- How many usernames from the list are valid?
+```
+1
+```
+- What are/is the valid username(s)?
+```
+james
+```
+- ssh jame's passowrd :
+```
+dak4ddb37b
+```
+- How many passwords were in your wordlist?
+```
+180
+```
+- What was the user's password?
+```
+blue7
+```
+- What's the user flag?
+```
+thm{56911bd7ba1371a3221478aa5c094d68}
+```
+## Task 3 - Esclate
+- What is the CVE number for the exploit?
+```
+CVE-2019-18634
+```
+- What is the root flag?
+```
+thm{af55ada6c2445446eb0606b5a2d3a4d2}
+```
+
